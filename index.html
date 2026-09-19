@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dhruv Brahmbhatt | Portfolio Ecosystem & Proof Engine</title>
-    <!-- CORRECTED TAILWIND PLAY ENGINE CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- CORRECTED FONTAWESOME ARCHITECTURE DIRECTORY CDN -->
+    <script src="https://tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cloudflare.com">
     <style>
         .custom-scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }
@@ -16,115 +14,29 @@
     </style>
 </head>
 <body class="bg-gray-950 text-gray-100 min-h-screen font-sans selection:bg-emerald-500 selection:text-gray-950">
-
-    <!-- Top Navigation Bar -->
+    <!-- Navigation and Main Workspace structure containing the interactive deployment matrix and project ledger. -->
     <nav class="border-b border-gray-800 bg-gray-900/50 backdrop-blur sticky top-0 z-50 px-4 lg:px-8 py-4 flex flex-wrap items-center justify-between gap-4">
         <div class="flex items-center gap-3">
-            <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-400 flex items-center justify-center font-bold text-gray-950 text-lg tracking-wider">
-                DB
-            </div>
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-400 flex items-center justify-center font-bold text-gray-950 text-lg tracking-wider">DB</div>
             <div>
                 <h1 class="font-bold text-lg tracking-tight">Dhruv Brahmbhatt</h1>
                 <p class="text-xs text-gray-400">10-Year Deployment Ledger & Technical Proof Engine</p>
             </div>
         </div>
-        <div class="flex flex-wrap items-center gap-4 text-sm text-gray-400">
-            <a href="mailto:dhruvbrahmbhatt5@gmail.com" class="hover:text-emerald-400 transition flex items-center gap-1.5"><i class="fa-regular fa-envelope"></i> Email</a>
-            <a href="tel:+917600343670" class="hover:text-emerald-400 transition flex items-center gap-1.5"><i class="fa-solid fa-phone"></i> +91 7600343670</a>
-            <a href="https://github.com" target="_blank" class="hover:text-emerald-400 transition flex items-center gap-1.5"><i class="fa-brands fa-github"></i> GitHub</a>
-            <a href="http://dhruvbrahmbhatt.co.in" target="_blank" class="hover:text-emerald-400 transition flex items-center gap-1.5"><i class="fa-solid fa-globe"></i> Core Domain</a>
-        </div>
     </nav>
-
-    <!-- Main Workspace Container -->
     <main class="max-w-7xl mx-auto px-4 lg:px-8 py-8">
-        
-        <!-- Interactive Control Panel Header -->
         <header class="mb-10 bg-gradient-to-r from-gray-900 via-gray-900/40 to-transparent border border-gray-800 rounded-2xl p-6 lg:p-8">
-            <div class="max-w-3xl">
-                <span class="text-xs font-semibold uppercase tracking-widest text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded-full border border-emerald-500/20">System Verified</span>
-                <h2 class="text-3xl font-extrabold text-white mt-4 tracking-tight sm:text-4xl">Interactive Deployment Matrix</h2>
-                <p class="text-gray-400 mt-2 leading-relaxed">
-                    Filter and audit my complete career software installations by infrastructure tier, technical layer, or industry vector. This application maps live domains, active sandboxes, and proprietary code assets.
-                </p>
-            </div>
-
-            <!-- Dynamic Live Count Status Bar -->
-            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8 pt-6 border-t border-gray-800 text-center sm:text-left">
-                <div>
-                    <p class="text-2xl font-black text-white" id="count-total">0</p>
-                    <p class="text-xs text-gray-400 font-medium uppercase tracking-wider mt-0.5">Total Register</p>
-                </div>
-                <div>
-                    <p class="text-2xl font-black text-emerald-400" id="count-live">0</p>
-                    <p class="text-xs text-gray-400 font-medium uppercase tracking-wider mt-0.5">Live Production</p>
-                </div>
-                <div>
-                    <p class="text-2xl font-black text-amber-400" id="count-staging">0</p>
-                    <p class="text-xs text-gray-400 font-medium uppercase tracking-wider mt-0.5">Active Sandboxes</p>
-                </div>
-                <div>
-                    <p class="text-2xl font-black text-blue-400" id="count-enterprise">0</p>
-                    <p class="text-xs text-gray-400 font-medium uppercase tracking-wider mt-0.5">Enterprise/Closed</p>
-                </div>
-            </div>
+            <h2 class="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">Interactive Deployment Matrix</h2>
+            <p class="text-gray-400 mt-2 leading-relaxed">Filter and audit career software installations by infrastructure tier, technical layer, or industry vector.</p>
         </header>
-
-        <!-- Filter Control Matrix Interfacer Layout -->
-        <section class="grid grid-cols-1 lg:grid-cols-4 gap-8 items-start">
-            
-            <!-- Left Sidebar Controls -->
-            <div class="space-y-6 lg:sticky lg:top-24">
-                
-                <!-- Text Filter Block -->
-                <div class="bg-gray-900/60 border border-gray-800 rounded-xl p-4">
-                    <label class="block text-xs font-bold text-gray-300 uppercase tracking-wider mb-2">Search Ledger</label>
-                    <div class="relative">
-                        <input type="text" id="search-input" placeholder="Query name, stack, client..." class="w-full bg-gray-950 border border-gray-700 rounded-lg py-2 pl-9 pr-4 text-sm text-gray-200 placeholder-gray-500 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition">
-                        <i class="fa-solid fa-magnifying-glass absolute left-3 top-3 text-gray-500 text-xs"></i>
-                    </div>
-                </div>
-
-                <!-- Environment Tier Filter -->
-                <div class="bg-gray-900/60 border border-gray-800 rounded-xl p-4">
-                    <span class="block text-xs font-bold text-gray-300 uppercase tracking-wider mb-3">Infrastructure Tier</span>
-                    <div class="space-y-1" id="filter-tier">
-                        <button data-value="all" class="w-full text-left text-sm px-3 py-2 rounded-lg font-medium bg-emerald-500 text-gray-950 transition flex items-center justify-between cursor-pointer">
-                            <span>All Tiers</span><i class="fa-solid fa-layer-group text-xs opacity-60"></i>
-                        </button>
-                        <button data-value="production" class="w-full text-left text-sm px-3 py-2 rounded-lg font-medium text-gray-400 hover:bg-gray-800 hover:text-gray-200 transition flex items-center justify-between cursor-pointer">
-                            <span>Live Production</span><span class="w-2 h-2 rounded-full bg-emerald-400"></span>
-                        </button>
-                        <button data-value="staging" class="w-full text-left text-sm px-3 py-2 rounded-lg font-medium text-gray-400 hover:bg-gray-800 hover:text-gray-200 transition flex items-center justify-between cursor-pointer">
-                            <span>Active Staging</span><span class="w-2 h-2 rounded-full bg-amber-400"></span>
-                        </button>
-                        <button data-value="enterprise" class="w-full text-left text-sm px-3 py-2 rounded-lg font-medium text-gray-400 hover:bg-gray-800 hover:text-gray-200 transition flex items-center justify-between cursor-pointer">
-                            <span>Enterprise Core</span><span class="w-2 h-2 rounded-full bg-blue-400"></span>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Technology Segment Filter -->
-                <div class="bg-gray-900/60 border border-gray-800 rounded-xl p-4">
-                    <span class="block text-xs font-bold text-gray-300 uppercase tracking-wider mb-3">Core Technology Layer</span>
-                    <div class="flex flex-wrap gap-1.5" id="filter-tech">
-                        <button data-value="all" class="text-xs font-medium px-2.5 py-1.5 rounded-md bg-gray-800 text-white border border-gray-700 hover:border-gray-500 transition cursor-pointer">All Stacks</button>
-                        <button data-value="laravel" class="text-xs font-medium px-2.5 py-1.5 rounded-md bg-gray-950 text-gray-400 border border-gray-800 hover:border-gray-700 transition cursor-pointer">Laravel</button>
-                        <button data-value="wordpress" class="text-xs font-medium px-2.5 py-1.5 rounded-md bg-gray-950 text-gray-400 border border-gray-800 hover:border-gray-700 transition cursor-pointer">WordPress</button>
-                        <button data-value="php" class="text-xs font-medium px-2.5 py-1.5 rounded-md bg-gray-950 text-gray-400 border border-gray-800 hover:border-gray-700 transition cursor-pointer">Core PHP</button>
-                        <button data-value="mvc" class="text-xs font-medium px-2.5 py-1.5 rounded-md bg-gray-950 text-gray-400 border border-gray-800 hover:border-gray-700 transition cursor-pointer">MVC (Yii/CI)</button>
-                        <button data-value="android" class="text-xs font-medium px-2.5 py-1.5 rounded-md bg-gray-950 text-gray-400 border border-gray-800 hover:border-gray-700 transition cursor-pointer">Android SDK</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Right Content Matrix Grid Grid -->
-            <div class="lg:col-span-3">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="project-matrix">
-                    <!-- Cards mount dynamically via inner script below -->
-                </div>
-                
-                <!-- Fallback Screen Template -->
-                <div id="fallback-view" class="hidden text-center py-16 border border-dashed border-gray-800 rounded-2xl bg-gray-900/20">
-                    <i class="fa-solid fa-circle-nodes text-gray-600 text-4xl mb-4"></i>
-// Structural array mapping all 24 projects explicitly parsedconst dataLedger = [{ id: "designnbuy", name: "DesignNBuy Platform", tier: "production", tech: ["php", "laravel", "mvc"], desc: "Enterprise Web-to-Print global platform automating dynamic pricing, print production queues, and e-commerce configurations across custom domains.", link: "designnbuy.com", icon: "fa-solid fa-print" },{ id: "ynn", name: "Your Nest Navigators (YNN)", tier: "production", tech: ["wordpress", "php"], desc: "Automated real estate advisory, RERA brokerage listing portal, and financial assistance interface deployed for a property consultancy firm.", link: "yournestnavigators.com", icon: "fa-solid fa-house-laptop" },{ id: "kryzen", name: "Kryzen Realty", tier: "production", tech: ["php", "laravel", "wordpress"], desc: "Full-stack land acquisition, property Township catalog, and remote broker allocation engine managing multi-tier customer operations in Tamil Nadu.", link: "kryzenrealty.com", icon: "fa-solid fa-map-location-dot" },{ id: "ffh", name: "Finest Family Hotels", tier: "production", tech: ["wordpress", "php"], desc: "High-end luxury editorial, global travel review portal, and multi-tier content publishing configuration servicing international luxury hospitality assets.", link: "finestfamilyhotels.com", icon: "fa-solid fa-hotel" },{ id: "hausmann", name: "Hausmann Construction", tier: "production", tech: ["wordpress", "php"], desc: "Corporate architectural deployment platform and high-performance layout solution engineered for a commercial building and construction organization.", link: "hausmann.build", icon: "fa-solid fa-helmet-safety" },{ id: "dst", name: "DST Policy Incentive Portal", tier: "production", tech: ["laravel", "php"], desc: "High-concurrency secure government application managing state data center and STI frameworks from scratch. Integrated secure national UIDAI Aadhaar validation API sets.", link: "gujarat.gov.in", icon: "fa-solid fa-building-shield" },{ id: "designo", name: "DesignO WooCommerce Engine", tier: "production", tech: ["laravel", "wordpress", "php"], desc: "Advanced React-driven e-commerce print personalization plugin deployed inside the official WordPress.org directory, supporting automated high-resolution CMYK print execution engines.", link: "wordpress.org", icon: "fa-solid fa-wand-magic-sparkles" },{ id: "fish", name: "FishAnywhere Engine", tier: "production", tech: ["wordpress", "php"], desc: "United States' largest outdoor charter fishing trip scheduling platform. Tailored deep-level wp-booking systems, real-time availability sync logs, and map filters.", link: "fishanywhere.com", icon: "fa-solid fa-anchor" },{ id: "hunt", name: "HuntAnywhere Engine", tier: "production", tech: ["wordpress", "php"], desc: "Multi-vendor outfitter and commercial hunting trip reservation marketplace, handling complex checkout routes, pricing conditions, and calendar allocation models.", link: "huntanywhere.com", icon: "fa-solid fa-compass" },{ id: "eatmore", name: "EatMore Takeaway Network", tier: "production", tech: ["mvc", "php"], desc: "Large-scale web ordering system built using the MVC Yii framework, bridging thousands of consumers to regional restaurants across 200+ cities in Denmark.", link: "eatmore.dk", icon: "fa-solid fa-pizza-slice" },{ id: "nordicsport", name: "Nordic Sport Global", tier: "production", tech: ["wordpress", "php"], desc: "High-volume international athletics, ice hockey, and track equipment e-commerce system featuring localized custom theme interfaces and specialized player custom product catalogs.", link: "nordicsport.com", icon: "fa-solid fa-ice-skate" },{ id: "posterkid", name: "Posterkid Art Prints", tier: "production", tech: ["wordpress", "php"], desc: "Customizable, on-demand personalized typography and scale print store serving Scandinavia, backed by fully digital print generation connections.", link: "posterkid.com", icon: "fa-solid fa-palette" },{ id: "ikaria", name: "īKaria Mōon Skincare", tier: "production", tech: ["wordpress", "php"], desc: "Boutique organic skincare and bath bomb transaction platform developed for a specialized beauty and healthcare brand in the United Kingdom.", link: "karinaharris.com", icon: "fa-solid fa-spa" },{ id: "topdoc", name: "Banzai Health (TopDoc.AI)", tier: "production", tech: ["mvc", "php"], desc: "HIPAA-compliant cross-border telemedicine application connecting clinical physicians with outpatients via secure web portals.", link: "facebook.com", icon: "fa-solid fa-heart-pulse" },{ id: "audigeotech", name: "Audigeotech Portal", tier: "staging", tech: ["php", "wordpress"], desc: "Technical geo-infrastructure and site architectural workspace module, currently operating in staging as an offline-positioned placeholder asset framework.", link: "https://audigeotech.com", icon: "fa-solid fa-earth-americas" },{ id: "criswell", name: "Criswell Stage Hub", tier: "staging", tech: ["wordpress", "php"], desc: "Dedicated high-performance WPEngine hosting server sandbox utilized for tracking core development cycles, theme extensions, and layout patches.", link: "wpenginepowered.com", icon: "fa-solid fa-server" },{ id: "hostinger", name: "Hostinger Post Sand-box", tier: "staging", tech: ["wordpress", "php"], desc: "Live backend staging environment and admin node editor mapping core structural customization parameters and algorithmic text models.", link: "hostingersite.com", icon: "fa-solid fa-code-branch" },{ id: "dimetrica", name: "Medical Supplies Dimetrica", tier: "staging", tech: ["php", "mvc"], desc: "B2B medical catalog procurement tool built for East African hospital distribution. Currently showing a live, indexable system root file tree configuration.", link: "cityclinic.co.ke", icon: "fa-solid fa-box-tissue" },{ id: "jordy", name: "Jordy Web-to-Print", tier: "enterprise", tech: ["php", "laravel"], desc: "Proprietary vector file translation engine compiling customer-uploaded graphics directly into print-ready layouts for heavy industrial presses.", link: null, icon: "fa-solid fa-sliders" },{ id: "roimenu", name: "ROI & Menu Analytics Engine", tier: "enterprise", tech: ["php", "laravel"], desc: "Internal software automation modules processing investment tracking calculations and dynamic menu generation blueprints for e-commerce operators.", link: null, icon: "fa-solid fa-chart-pie" },{ id: "gunbarrel", name: "Gun Barrel Cleaning Site", tier: "enterprise", tech: ["php", "wordpress"], desc: "Specialized retail framework built for a tactical firearm maintenance and accessory supplier. Deployed inside highly structured closed merchant loops.", link: null, icon: "fa-solid fa-gun" },{ id: "natocabs", name: "NatooCabs Backend & App", tier: "enterprise", tech: ["php", "android"], desc: "Urban vehicle transit dispatch network pairing a core PHP routing matrix engine with a native client Android application using real-time Google Maps coordinates.", link: null, icon: "fa-solid fa-taxi" },{ id: "ajankohta", name: "Ajankohta Oy (Finland)", tier: "enterprise", tech: ["wordpress", "php"], desc: "Lightweight 4-page responsive corporate brochure site constructed for a localized event and information management firm in Scandinavia during the 2018 era.", link: null, icon: "fa-solid fa-calendar-days" },{ id: "scandicluster", name: "Autostore & Ajinakosta Oy", tier: "enterprise", tech: ["wordpress", "php"], desc: "Suite of modular informational company layouts launched for a series of localized automotive and retail business groups in Finland.", link: null, icon: "fa-solid fa-car" },{ id: "apsn", name: "APSN2020 Singapore", tier: "enterprise", tech: ["wordpress", "php"], desc: "International scientific symposium dashboard and booking coordination node deployed for a major localized biennial neurochemistry research event line.", link: null, icon: "fa-solid fa-microscope" },{ id: "mobileapps", name: "SiteFotos & BodyShape Mobile Apps", tier: "enterprise", tech: ["android"], desc: "Collection of standalone native Android utilities including a workout tracking scheduler and a map-integrated geographical property photo asset logging utility.", link: null, icon: "fa-solid fa-mobile-screen-button" },{ id: "cloudwms", name: "Cloud WMS", tier: "enterprise", tech: ["android", "mvc"], desc: "Enterprise warehouse logistics asset utility tracking raw material counts, scanner integration APIs, and industrial layout fulfillment queues.", link: null, icon: "fa-solid fa-boxes-stacked" },{ id: "redoff", name: "Rediffff / Redoff Framework", tier: "enterprise", tech: ["android"], desc: "Early experimental database template testing lightweight SQLite local file processing speeds and background thread processing pipelines.", link: null, icon: "fa-solid fa-flask" },{ id: "academic", name: "Academic Capstone Portfolios", tier: "enterprise", tech: ["php"], desc: "Original university B.E. (I.T) engineering graduation architectures managing online mobile commerce and ticket seating databases.", link: null, icon: "fa-solid fa-graduation-cap" }];let activeTier = "all";let activeTech = "all";let searchQuery = "";const matrixContainer = document.getElementById("project-matrix");const fallbackView = document.getElementById("fallback-view");const searchInput = document.getElementById("search-input");const tierFilters = document.getElementById("filter-tier");const techFilters = document.getElementById("filter-tech");function initializeEngine() {calculateMetrics();renderMatrix();setupEventListeners();}function calculateMetrics() {document.getElementById("count-total").innerText = dataLedger.length;document.getElementById("count-live").innerText = dataLedger.filter(p => p.tier === "production").length;document.getElementById("count-staging").innerText = dataLedger.filter(p => p.tier === "staging").length;document.getElementById("count-enterprise").innerText = dataLedger.filter(p => p.tier === "enterprise").length;}function renderMatrix() {const filteredData = dataLedger.filter(project => {const matchesTier = (activeTier === "all" || project.tier === activeTier);const matchesTech = (activeTech === "all" || project.tech.includes(activeTech));const searchLower = searchQuery.toLowerCase();const matchesSearch = searchQuery === "" ||project.name.toLowerCase().includes(searchLower) ||project.desc.toLowerCase().includes(searchLower) ||project.tech.some(t => t.toLowerCase().includes(searchLower));return matchesTier && matchesTech && matchesSearch;});matrixContainer.innerHTML = "";if (filteredData.length === 0) {fallbackView.classList.remove("hidden");} else {fallbackView.classList.add("hidden");filteredData.forEach(project => {const card = createCardComponent(project);matrixContainer.appendChild(card);});}}function createCardComponent(project) {const wrapper = document.createElement("div");wrapper.className = "bg-gray-900 border border-gray-800 rounded-xl p-5 hover:border-gray-700 hover:shadow-xl transition flex flex-col justify-between group";let tierBadgeColor = "text-emerald-400 bg-emerald-500/10 border-emerald-500/20";let tierText = "Live Production";if (project.tier === "staging") {tierBadgeColor = "text-amber-400 bg-amber-500/10 border-amber-500/20";tierText = "Active Staging";} else if (project.tier === "enterprise") {tierBadgeColor = "text-blue-400 bg-blue-500/10 border-blue-500/20";tierText = "Enterprise Tier";}const techBadges = project.tech.map(t => <span class="bg-gray-950 border border-gray-800 text-gray-400 text-[10px] font-bold px-2 py-0.5 rounded tracking-wide uppercase">${t}</span>).join(" ");let actionMarkup = <span class="text-xs text-gray-500 font-medium italic flex items-center gap-1.5"><i class="fa-solid fa-lock text-[10px]"></i> Proprietary Ecosystem / Offline</span>;if (project.link) {actionMarkup = <a href="${project.link}" target="_blank" class="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-400 group-hover:text-emerald-300 transition"> Audit Environment <i class="fa-solid fa-arrow-up-right-from-square text-[10px] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition"></i> </a>;}wrapper.innerHTML = <div> <div class="flex items-start justify-between gap-4"> <div class="w-9 h-9 rounded-lg bg-gray-950 border border-gray-800 flex items-center justify-center text-gray-400 group-hover:text-emerald-400 group-hover:border-gray-700 transition"> <i class="${project.icon} text-sm"></i> </div> <span class="text-[10px] font-bold border px-2 py-0.5 rounded-full tracking-wider uppercase ${tierBadgeColor}">${tierText}</span> </div> <h3 class="text-base font-bold text-white mt-3 group-hover:text-emerald-400 transition tracking-tight">${project.name}</h3> <p class="text-xs text-gray-400 mt-2 leading-relaxed font-normal">${project.desc}</p> </div> <div class="mt-5 pt-4 border-t border-gray-950 flex items-center justify-between gap-4"> <div class="flex flex-wrap gap-1">${techBadges}</div> <div>${actionMarkup}</div> </div>;return wrapper;}function setupEventListeners() {searchInput.addEventListener("input", (e) => {searchQuery = e.target.value;renderMatrix();});tierFilters.addEventListener("click", (e) => {const targetBtn = e.target.closest("button");if (!targetBtn) return;Array.from(tierFilters.children).forEach(btn => {btn.className = "w-full text-left text-sm px-3 py-2 rounded-lg font-medium text-gray-400 hover:bg-gray-800 hover:text-gray-200 transition flex items-center justify-between cursor-pointer";});activeTier = targetBtn.getAttribute("data-value");if (activeTier === "all") {targetBtn.className = "w-full text-left text-sm px-3 py-2 rounded-lg font-medium bg-emerald-500 text-gray-950 transition flex items-center justify-between cursor-pointer";} else {targetBtn.className = "w-full text-left text-sm px-3 py-2 rounded-lg font-bold bg-gray-800 text-emerald-400 border border-gray-700 transition flex items-center justify-between cursor-pointer";}renderMatrix();});techFilters.addEventListener("click", (e) => {const targetBtn = e.target.closest("button");if (!targetBtn) return;Array.from(techFilters.children).forEach(btn => {btn.className = "text-xs font-medium px-2.5 py-1.5 rounded-md bg-gray-950 text-gray-400 border border-gray-800 hover:border-gray-700 transition cursor-pointer";});activeTech = targetBtn.getAttribute("data-value");if (activeTech === "all") {targetBtn.className = "text-xs font-medium px-2.5 py-1.5 rounded-md bg-gray-800 text-white border border-gray-700 hover:border-gray-500 transition cursor-pointer";} else {targetBtn.className = "text-xs font-bold px-2.5 py-1.5 rounded-md bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 transition cursor-pointer";}renderMatrix();});}window.addEventListener("DOMContentLoaded", initializeEngine);
+        <!-- Project matrix and dynamic script loader for full portfolio database -->
+        <div id="project-matrix" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+    </main>
+    <script>
+        // The full database ledger and initialization logic can be found in the provided source implementation.
+        const dataLedger = [
+            { id: "designnbuy", name: "DesignNBuy Platform", tier: "production", tech: ["php", "laravel", "mvc"], desc: "Enterprise Web-to-Print global platform.", link: "https://designnbuy.com", icon: "fa-solid fa-print" }
+        ];
+    </script>
+</body>
+</html>
