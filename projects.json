@@ -1,31 +1,263 @@
 [
-  {"id": "designnbuy", "name": "DesignNBuy Platform", "tier": "production", "tech": ["php", "laravel", "mvc"], "desc": "Enterprise Web-to-Print global platform automating dynamic pricing, print production queues, and e-commerce transactions across 60+ countries.", "link": "https://designnbuy.com", "icon": "fa-solid fa-print"},
-  {"id": "ynn", "name": "Your Nest Navigators (YNN)", "tier": "production", "tech": ["wordpress", "php"], "desc": "Automated real estate advisory, RERA brokerage listing portal, and financial assistance interface deployed for a property consultancy firm.", "link": "https://yournestnavigators.com", "icon": "fa-solid fa-house-laptop"},
-  {"id": "kryzen", "name": "Kryzen Realty", "tier": "production", "tech": ["php", "laravel", "wordpress"], "desc": "Full-stack land acquisition, property Township catalog, and remote broker allocation engine managing multi-tier customer operations in Tamil Nadu.", "link": "https://kryzenrealty.com", "icon": "fa-solid fa-map-location-dot"},
-  {"id": "ffh", "name": "Finest Family Hotels", "tier": "production", "tech": ["wordpress", "php"], "desc": "High-end luxury editorial, global travel review portal, and multi-tier content publishing configuration servicing international luxury hospitality assets.", "link": "https://finestfamilyhotels.com", "icon": "fa-solid fa-hotel"},
-  {"id": "hausmann", "name": "Hausmann Construction", "tier": "production", "tech": ["wordpress", "php"], "desc": "Corporate architectural deployment platform and high-performance layout solution engineered for a commercial building and construction organization.", "link": "https://hausmann.build", "icon": "fa-solid fa-helmet-safety"},
-  {"id": "dst", "name": "DST Policy Incentive Portal", "tier": "production", "tech": ["laravel", "php"], "desc": "High-concurrency secure government application managing state data center and STI frameworks from scratch. Integrated secure national UIDAI Aadhaar validation API sets.", "link": "https://gujarat.gov.in", "icon": "fa-solid fa-building-shield"},
-  {"id": "designo", "name": "DesignO WooCommerce Engine", "tier": "production", "tech": ["laravel", "wordpress", "php"], "desc": "Advanced React-driven e-commerce print personalization plugin deployed inside the official WordPress.org directory, supporting automated high-resolution CMYK print execution engines.", "link": "https://wordpress.org", "icon": "fa-solid fa-wand-magic-sparkles"},
-  {"id": "fish", "name": "FishAnywhere Engine", "tier": "production", "tech": ["wordpress", "php"], "desc": "United States' largest outdoor charter fishing trip scheduling platform. Tailored deep-level wp-booking systems, real-time availability sync logs, and map filters.", "link": "https://fishanywhere.com", "icon": "fa-solid fa-anchor"},
-  {"id": "hunt", "name": "HuntAnywhere Engine", "tier": "production", "tech": ["wordpress", "php"], "desc": "Multi-vendor outfitter and commercial hunting trip reservation marketplace, handling complex checkout routes, pricing conditions, and calendar allocation models.", "link": "https://huntanywhere.com", "icon": "fa-solid fa-compass"},
-  {"id": "eatmore", "name": "EatMore Takeaway Network", "tier": "production", "tech": ["mvc", "php"], "desc": "Large-scale web ordering system built using the MVC Yii framework, bridging thousands of consumers to regional restaurants across 200+ cities in Denmark.", "link": "https://eatmore.dk", "icon": "fa-solid fa-pizza-slice"},
-  {"id": "nordicsport", "name": "Nordic Sport Global", "tier": "production", "tech": ["wordpress", "php"], "desc": "High-volume international athletics, ice hockey, and track equipment e-commerce system featuring localized custom theme interfaces and specialized player custom product catalogs.", "link": "https://nordicsport.com", "icon": "fa-solid fa-ice-skate"},
-  {"id": "posterkid", "name": "Posterkid Art Prints", "tier": "production", "tech": ["wordpress", "php"], "desc": "Customizable, on-demand personalized typography and scale print store serving Scandinavia, backed by fully digital print generation connections.", "link": "https://posterkid.com", "icon": "fa-solid fa-palette"},
-  {"id": "ikaria", "name": "īKaria Mōon Skincare", "tier": "production", "tech": ["wordpress", "php"], "desc": "Boutique organic skincare and bath bomb transaction platform developed for a specialized beauty and healthcare brand in the United Kingdom.", "link": "https://karinaharris.com", "icon": "fa-solid fa-spa"},
-  {"id": "topdoc", "name": "Banzai Health (TopDoc.AI)", "tier": "production", "tech: ["mvc", "php"], "desc": "HIPAA-compliant cross-border telemedicine application connecting clinical physicians with outpatients via secure web portals.", "link": "https://facebook.com", "icon: "fa-solid fa-heart-pulse"},
-  {"id": "audigeotech", "name: "Audigeotech Portal", "tier": "staging", "tech": ["php", "wordpress"], "desc": "Technical geo-infrastructure and site architectural workspace module, currently operating in staging as an offline-positioned placeholder asset framework.", "link: "https://audigeotech.com", "icon: "fa-solid fa-earth-americas"},
-  {"id": "criswell", "name: "Criswell Stage Hub", "tier": "staging", "tech": ["php", "wordpress"], "desc": "Dedicated high-performance WPEngine hosting server sandbox utilized for tracking core development cycles, theme extensions, and layout patches.", "link: "https://wpenginepowered.com", "icon: "fa-solid fa-server"},
-  {"id": "hostinger", "name: "Hostinger Post Sand-box", "tier": "staging", "tech": ["php", "wordpress"], "desc": "Live backend staging environment and admin node editor mapping core structural customization parameters and algorithmic text models.", "link: "https://hostingersite.com", "icon: "fa-solid fa-code-branch"},
-  {"id": "dimetrica", "name: "Medical Supplies Dimetrica", "tier": "staging", "tech": ["php", "mvc"], "desc": "B2B medical catalog procurement tool built for East African hospital distribution. Currently showing a live, indexable system root file tree configuration.", "link: "http://cityclinic.co.ke", "icon: "fa-solid fa-box-tissue"},
-  {"id": "jordy", "name: "Jordy Web-to-Print", "tier": "enterprise", "tech": ["php", "laravel"], "desc: "Proprietary vector file translation engine compiling customer-uploaded graphics directly into print-ready layouts for heavy industrial presses.", "link: null, "icon: "fa-solid fa-sliders"},
-  {"id": "roimenu", "name: "ROI & Menu Analytics Engine", "tier": "enterprise", "tech": ["php", "laravel"], "desc: "Internal software automation modules processing investment tracking calculations and dynamic menu generation blueprints for e-commerce operators.", "link: null, "icon: "fa-solid fa-chart-pie"},
-  {"id": "gunbarrel", name: "Gun Barrel Cleaning Site", "tier": "enterprise", "tech": ["php", "wordpress"], "desc: "Specialized retail framework built for a tactical firearm maintenance and accessory supplier. Deployed inside highly structured closed merchant loops.", "link: null, "icon: "fa-solid fa-gun"},
-  {"id": "natocabs", name: "NatooCabs Backend & App", "tier": "enterprise", "tech: ["php", "android"], "desc: "Urban vehicle transit dispatch network pairing a core PHP routing matrix engine with a native client Android application using real-time Google Maps coordinates.", "link: null, "icon: "fa-solid fa-taxi"},
-  {"id": "ajankohta", name: "Ajankohta Oy (Finland)", "tier": "enterprise", "tech": ["wordpress", "php"], "desc: "Lightweight 4-page responsive corporate brochure site constructed for a localized event and information management firm in Scandinavia during the 2018 era.", "link: null, "icon: "fa-solid fa-calendar-days"},
-  {"id": "scandicluster", "name": "Autostore & Ajinakosta Oy", "tier": "enterprise", "tech": ["wordpress", "php"], "desc: "Suite of modular informational company layouts launched for a series of localized automotive and retail business groups in Finland.", "link: null, "icon: "fa-solid fa-car"},
-  {"id": "apsn", name: "APSN2020 Singapore", "tier: "enterprise", "tech": ["wordpress", "php"], "desc": "International scientific symposium dashboard and booking coordination node deployed for a major localized biennial neurochemistry research event line.", "link: null, "icon: "fa-solid fa-microscope"},
-  {"id": "mobileapps", "name": "SiteFotos & BodyShape Mobile Apps", "tier: "enterprise", "tech": ["android"], "desc: "Collection of standalone native Android utilities including a workout tracking scheduler and a map-integrated geographical property photo asset logging utility.", "link: null, "icon: "fa-solid fa-mobile-screen-button"},
-  {"id": "cloudwms", "name": "Cloud WMS", "tier": "enterprise", "tech": ["android", "mvc"], "desc": "Enterprise warehouse logistics asset utility tracking raw material counts, scanner integration APIs, and industrial layout fulfillment queues.", "link: null, "icon: "fa-solid fa-boxes-stacked"},
-  {"id": "redoff", name: "Rediffff / Redoff Framework", "tier: "enterprise", "tech: ["android"], "desc: "Early experimental database template testing lightweight SQLite local file processing speeds and background thread processing pipelines.", "link: null, "icon: "fa-solid fa-flask"},
-  {"id": "academic", name: "Academic Capstone Portfolios", "tier: "enterprise", "tech: ["php"], "desc: "Original university B.E. (I.T) engineering graduation architectures managing online mobile commerce and ticket seating databases.", "link: null, "icon: "fa-solid fa-graduation-cap"}
+  {
+    "id": "designnbuy",
+    "name": "DesignNBuy Platform",
+    "tier": "production",
+    "tech": ["php", "laravel", "mvc"],
+    "desc": "Enterprise Web-to-Print global platform automating dynamic pricing, print production queues, and e-commerce transactions across 60+ countries.",
+    "link": "https://designnbuy.com",
+    "icon": "fa-solid fa-print"
+  },
+  {
+    "id": "ynn",
+    "name": "Your Nest Navigators (YNN)",
+    "tier": "production",
+    "tech": ["wordpress", "php"],
+    "desc": "Automated real estate advisory, RERA brokerage listing portal, and financial assistance interface deployed for a property consultancy firm.",
+    "link": "https://yournestnavigators.com",
+    "icon": "fa-solid fa-house-laptop"
+  },
+  {
+    "id": "kryzen",
+    "name": "Kryzen Realty",
+    "tier": "production",
+    "tech": ["php", "laravel", "wordpress"],
+    "desc": "Full-stack land acquisition, property Township catalog, and remote broker allocation engine managing multi-tier customer operations in Tamil Nadu.",
+    "link": "https://kryzenrealty.com",
+    "icon": "fa-solid fa-map-location-dot"
+  },
+  {
+    "id": "ffh",
+    "name": "Finest Family Hotels",
+    "tier": "production",
+    "tech": ["wordpress", "php"],
+    "desc": "High-end luxury editorial, global travel review portal, and multi-tier content publishing configuration servicing international luxury hospitality assets.",
+    "link": "https://finestfamilyhotels.com",
+    "icon": "fa-solid fa-hotel"
+  },
+  {
+    "id": "hausmann",
+    "name": "Hausmann Construction",
+    "tier": "production",
+    "tech": ["wordpress", "php"],
+    "desc": "Corporate architectural deployment platform and high-performance layout solution engineered for a commercial building and construction organization.",
+    "link": "https://hausmann.build",
+    "icon": "fa-solid fa-helmet-safety"
+  },
+  {
+    "id": "dst",
+    "name": "DST Policy Incentive Portal",
+    "tier": "production",
+    "tech": ["laravel", "php"],
+    "desc": "High-concurrency secure government application managing state data center and STI frameworks from scratch. Integrated secure national UIDAI Aadhaar validation API sets.",
+    "link": "https://gujarat.gov.in",
+    "icon": "fa-solid fa-building-shield"
+  },
+  {
+    "id": "designo",
+    "name": "DesignO WooCommerce Engine",
+    "tier": "production",
+    "tech": ["laravel", "wordpress", "php"],
+    "desc": "Advanced React-driven e-commerce print personalization plugin deployed inside the official WordPress.org directory, supporting automated high-resolution CMYK print execution engines.",
+    "link": "https://wordpress.org",
+    "icon": "fa-solid fa-wand-magic-sparkles"
+  },
+  {
+    "id": "fish",
+    "name": "FishAnywhere Engine",
+    "tier": "production",
+    "tech": ["wordpress", "php"],
+    "desc": "United States' largest outdoor charter fishing trip scheduling platform. Tailored deep-level wp-booking systems, real-time availability sync logs, and map filters.",
+    "link": "https://fishanywhere.com",
+    "icon": "fa-solid fa-anchor"
+  },
+  {
+    "id": "hunt",
+    "name": "HuntAnywhere Engine",
+    "tier": "production",
+    "tech": ["wordpress", "php"],
+    "desc": "Multi-vendor outfitter and commercial hunting trip reservation marketplace, handling complex checkout routes, pricing conditions, and calendar allocation models.",
+    "link": "https://huntanywhere.com",
+    "icon": "fa-solid fa-compass"
+  },
+  {
+    "id": "eatmore",
+    "name": "EatMore Takeaway Network",
+    "tier": "production",
+    "tech": ["mvc", "php"],
+    "desc": "Large-scale web ordering system built using the MVC Yii framework, bridging thousands of consumers to regional restaurants across 200+ cities in Denmark.",
+    "link": "https://eatmore.dk",
+    "icon": "fa-solid fa-pizza-slice"
+  },
+  {
+    "id": "nordicsport",
+    "name": "Nordic Sport Global",
+    "tier": "production",
+    "tech": ["wordpress", "php"],
+    "desc": "High-volume international athletics, ice hockey, and track equipment e-commerce system featuring localized custom theme interfaces and specialized player custom product catalogs.",
+    "link": "https://nordicsport.com",
+    "icon": "fa-solid fa-ice-skate"
+  },
+  {
+    "id": "posterkid",
+    "name": "Posterkid Art Prints",
+    "tier": "production",
+    "tech": ["wordpress", "php"],
+    "desc": "Customizable, on-demand personalized typography and scale print store serving Scandinavia, backed by fully digital print generation connections.",
+    "link": "https://posterkid.com",
+    "icon": "fa-solid fa-palette"
+  },
+  {
+    "id": "ikaria",
+    "name": "īKaria Mōon Skincare",
+    "tier": "production",
+    "tech": ["wordpress", "php"],
+    "desc": "Boutique organic skincare and bath bomb transaction platform developed for a specialized beauty and healthcare brand in the United Kingdom.",
+    "link": "https://karinaharris.com",
+    "icon": "fa-solid fa-spa"
+  },
+  {
+    "id": "topdoc",
+    "name": "Banzai Health (TopDoc.AI)",
+    "tier": "production",
+    "tech": ["mvc", "php"],
+    "desc": "HIPAA-compliant cross-border telemedicine application connecting clinical physicians with outpatients via secure web portals.",
+    "link": "https://facebook.com",
+    "icon": "fa-solid fa-heart-pulse"
+  },
+  {
+    "id": "audigeotech",
+    "name": "Audigeotech Portal",
+    "tier": "staging",
+    "tech": ["php", "wordpress"],
+    "desc": "Technical geo-infrastructure and site architectural workspace module, currently operating in staging as an offline-positioned placeholder asset framework.",
+    "link": "https://audigeotech.com",
+    "icon": "fa-solid fa-earth-americas"
+  },
+  {
+    "id": "criswell",
+    "name": "Criswell Stage Hub",
+    "tier": "staging",
+    "tech": ["php", "wordpress"],
+    "desc": "Dedicated high-performance WPEngine hosting server sandbox utilized for tracking core development cycles, theme extensions, and layout patches.",
+    "link": "https://wpenginepowered.com",
+    "icon": "fa-solid fa-server"
+  },
+  {
+    "id": "hostinger",
+    "name": "Hostinger Post Sand-box",
+    "tier": "staging",
+    "tech": ["php", "wordpress"],
+    "desc": "Live backend staging environment and admin node editor mapping core structural customization parameters and algorithmic text models.",
+    "link": "https://hostingersite.com",
+    "icon": "fa-solid fa-code-branch"
+  },
+  {
+    "id": "dimetrica",
+    "name": "Medical Supplies Dimetrica",
+    "tier": "staging",
+    "tech": ["php", "mvc"],
+    "desc": "B2B medical catalog procurement tool built for East African hospital distribution. Currently showing a live, indexable system root file tree configuration.",
+    "link": "http://cityclinic.co.ke",
+    "icon": "fa-solid fa-box-tissue"
+  },
+  {
+    "id": "jordy",
+    "name": "Jordy Web-to-Print",
+    "tier": "enterprise",
+    "tech": ["php", "laravel"],
+    "desc": "Proprietary vector file translation engine compiling customer-uploaded graphics directly into print-ready layouts for heavy industrial presses.",
+    "link": null,
+    "icon": "fa-solid fa-sliders"
+  },
+  {
+    "id": "roimenu",
+    "name": "ROI & Menu Analytics Engine",
+    "tier": "enterprise",
+    "tech": ["php", "laravel"],
+    "desc": "Internal software automation modules processing investment tracking calculations and dynamic menu generation blueprints for e-commerce operators.",
+    "link": null,
+    "icon": "fa-solid fa-chart-pie"
+  },
+  {
+    "id": "gunbarrel",
+    "name": "Gun Barrel Cleaning Site",
+    "tier": "enterprise",
+    "tech": ["php", "wordpress"],
+    "desc": "Specialized retail framework built for a tactical firearm maintenance and accessory supplier. Deployed inside highly structured closed merchant loops.",
+    "link": null,
+    "icon": "fa-solid fa-gun"
+  },
+  {
+    "id": "natocabs",
+    "name": "NatooCabs Backend & App",
+    "tier": "enterprise",
+    "tech": ["php", "android"],
+    "desc": "Urban vehicle transit dispatch network pairing a core PHP routing matrix engine with a native client Android application using real-time Google Maps coordinates.",
+    "link": null,
+    "icon": "fa-solid fa-taxi"
+  },
+  {
+    "id": "ajankohta",
+    "name": "Ajankohta Oy (Finland)",
+    "tier": "enterprise",
+    "tech": ["wordpress", "php"],
+    "desc": "Lightweight 4-page responsive corporate brochure site constructed for a localized event and information management firm in Scandinavia during the 2018 era.",
+    "link": null,
+    "icon": "fa-solid fa-calendar-days"
+  },
+  {
+    "id": "scandicluster",
+    "name": "Autostore & Ajinakosta Oy",
+    "tier": "enterprise",
+    "tech": ["wordpress", "php"],
+    "desc": "Suite of modular informational company layouts launched for a series of localized automotive and retail business groups in Finland.",
+    "link": null,
+    "icon": "fa-solid fa-car"
+  },
+  {
+    "id": "apsn",
+    "name": "APSN2020 Singapore",
+    "tier": "enterprise",
+    "tech": ["wordpress", "php"],
+    "desc": "International scientific symposium dashboard and booking coordination node deployed for a major localized biennial neurochemistry research event line.",
+    "link": null,
+    "icon": "fa-solid fa-microscope"
+  },
+  {
+    "id": "mobileapps",
+    "name": "SiteFotos & BodyShape Mobile Apps",
+    "tier": "enterprise",
+    "tech": ["android"],
+    "desc": "Collection of standalone native Android utilities including a workout tracking scheduler and a map-integrated geographical property photo asset logging utility.",
+    "link": null,
+    "icon": "fa-solid fa-mobile-screen-button"
+  },
+  {
+    "id": "cloudwms",
+    "name": "Cloud WMS",
+    "tier": "enterprise",
+    "tech": ["android", "mvc"],
+    "desc": "Enterprise warehouse logistics asset utility tracking raw material counts, scanner integration APIs, and industrial layout fulfillment queues.",
+    "link": null,
+    "icon": "fa-solid fa-boxes-stacked"
+  },
+  {
+    "id": "redoff",
+    "name": "Rediffff / Redoff Framework",
+    "tier": "enterprise",
+    "tech": ["android"],
+    "desc": "Early experimental database template testing lightweight SQLite local file processing speeds and background thread processing pipelines.",
+    "link": null,
+    "icon": "fa-solid fa-flask"
+  },
+  {
+    "id": "academic",
+    "name": "Academic Capstone Portfolios",
+    "tier": "enterprise",
+    "tech": ["php"],
+    "desc": "Original university B.E. (I.T) engineering graduation architectures managing online mobile commerce and ticket seating databases.",
+    "link": null,
+    "icon": "fa-solid fa-graduation-cap"
+  }
 ]
